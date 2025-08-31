@@ -1,0 +1,37 @@
+/* App.css */
+@font-face {
+    font-family: FontOne;
+    src: url(./Assets/Font.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FontOne;
+    font-weight: 400;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.lft-nav:hover h1:first-child {
+    margin-top: -5.5vh;
+}
+
+.rght-nav:hover h2:first-child {
+    margin-top: -3vh;
+}
+
+.cta-book:hover h2:first-child {
+    margin-top: -3vh;
+}
+
+/* Add other custom styles that can't be handled by Tailwind */
